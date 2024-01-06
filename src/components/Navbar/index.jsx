@@ -11,7 +11,7 @@ export default function NavBar() {
   return (
     <NavBarStyle expand="lg" className="bg-body-tertiary">
       <Container>
-        <NavBarStyle.Brand href="/">
+        <NavBarStyle.Brand href={process.env.PUBLIC_URL + "/"}>
           <img src={Icone} alt="Icone" />
         </NavBarStyle.Brand>
         <NavBarStyle.Toggle aria-controls="basic-navbar-nav" />
@@ -21,10 +21,6 @@ export default function NavBar() {
               <IoMdCodeWorking />
               Experiencias
             </Nav.Link>
-            {/* <Nav.Link as={Link} to="/Contato">
-              <IoIosMail />
-              Contato
-            </Nav.Link> */}
           </Nav>
           <Nav className="icones">
             <Nav.Link
