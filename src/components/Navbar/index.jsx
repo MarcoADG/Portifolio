@@ -11,7 +11,7 @@ export default function NavBar() {
   return (
     <NavBarStyle expand="lg" className="bg-body-tertiary">
       <Container>
-        <NavBarStyle.Brand href={process.env.PUBLIC_URL + "/"}>
+        <NavBarStyle.Brand href="/Portifolio/">
           <img src={Icone} alt="Icone" />
         </NavBarStyle.Brand>
         <NavBarStyle.Toggle aria-controls="basic-navbar-nav" />
