@@ -11,9 +11,9 @@ export default function NavBar() {
   return (
     <NavBarStyle expand="lg" className="bg-body-tertiary">
       <Container>
-        <NavBarStyle.Brand href="/Portifolio/">
+        <Nav.Link as={Link} to="/">
           <img src={Icone} alt="Icone" />
-        </NavBarStyle.Brand>
+        </Nav.Link>
         <NavBarStyle.Toggle aria-controls="basic-navbar-nav" />
         <NavBarStyle.Collapse id="basic-navbar-nav">
           <Nav>

@@ -25,7 +25,7 @@ export default function Rotas({
   }
 
   return (
-    <BrowserRouter basename="/Portifolio">
+    <BrowserRouter basename="/Portifolio/">
       <Routes>
         <Route
           path="/"

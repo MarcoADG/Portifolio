@@ -14,7 +14,7 @@ export const NavBarStyle = styled(Navbar)`
     gap: 5rem;
   }
 
-  .navbar-brand {
+  .nav-link {
     color: var(--preto-primario) !important;
 
     img {
@@ -22,10 +22,6 @@ export const NavBarStyle = styled(Navbar)`
       width: 50px;
       height: 50px;
     }
-  }
-
-  .nav-link {
-    color: var(--preto-primario) !important;
 
     svg {
       margin-right: 0.125rem;
